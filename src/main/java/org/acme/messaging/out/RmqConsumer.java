@@ -1,4 +1,4 @@
-package org.acme.messaging;
+package org.acme.messaging.out;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import io.vertx.core.buffer.Buffer;
@@ -9,7 +9,7 @@ import org.eclipse.microprofile.reactive.messaging.Incoming;
 
 @ApplicationScoped
 @Slf4j
-public class RmwConsumer {
+public class RmqConsumer {
 
     @Incoming("transactions")
     public void process(Buffer msg) {

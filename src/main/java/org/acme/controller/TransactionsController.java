@@ -12,6 +12,7 @@ import org.acme.service.TransactionService;
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 @RequiredArgsConstructor
+@Slf4j
 public class TransactionsController {
     private final TransactionService transactionService;
 

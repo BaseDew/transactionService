@@ -2,9 +2,13 @@ package org.acme.repository;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Table(name = "transactions")
+@Getter
+@Setter
 public class TransactionEntity extends PanacheEntity {
 
     @Column(name = "account_id", nullable = false)
