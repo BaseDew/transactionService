@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.acme.dto.CreateTransactionRequest;
 import org.acme.dto.TransactionDto;
 import org.acme.mapper.TransactionMapper;
-import org.acme.messaging.in.RmqProducer;
+import org.acme.messaging.out.RmqProducer;
 import org.acme.repository.TransactionEntity;
 import org.acme.repository.TransactionRepository;
 import org.acme.repository.TransactionStatus;

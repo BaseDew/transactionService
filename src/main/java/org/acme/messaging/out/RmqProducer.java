@@ -1,4 +1,4 @@
-package org.acme.messaging.in;
+package org.acme.messaging.out;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

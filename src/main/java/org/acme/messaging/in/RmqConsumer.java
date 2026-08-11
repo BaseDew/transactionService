@@ -1,4 +1,4 @@
-package org.acme.messaging.out;
+package org.acme.messaging.in;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import io.vertx.core.buffer.Buffer;
